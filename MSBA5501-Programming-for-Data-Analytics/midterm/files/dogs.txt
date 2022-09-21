@@ -1,0 +1,6 @@
+name	species	age	weight	owner
+ray	labrador	10	90	lucy
+jammie	welsh corgi	5	20	bob
+bijou	poodle	4	30	pat
+pip	korean jindo	7	40	gilbert
+huluwa	whippet	2	30	xiao
