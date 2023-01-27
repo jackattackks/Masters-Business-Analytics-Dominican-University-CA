@@ -1,4 +1,5 @@
 # Masters-Business-Analytics-Dominican-University-CA
 materials from my courses in business analytics
 
-All of this work is in Python
+5501 - projects in python
+5504 - projects done in r
