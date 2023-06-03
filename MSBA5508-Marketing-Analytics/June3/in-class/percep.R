@@ -43,4 +43,5 @@ biplot(brand.pc)
 brand.mu.pc<-prcomp(brand.mean,scale=TRUE)
 summary(brand.mu.pc)
 
+# percept mapping 
 biplot(brand.mu.pc)
