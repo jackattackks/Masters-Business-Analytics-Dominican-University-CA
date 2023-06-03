@@ -31,7 +31,7 @@ vars <- lp_solve$solution
 vars
 
 #PART B
-#yes, will change, will increase profit
+#yes, will change, will increase profit besaure outside of allowable increase
 
 f.objb <- c(1,0.90,1)
 lp_solve_b <- lp("max", f.objb, f.con, f.dir, f.par)
@@ -53,6 +53,10 @@ vars3
 
 # PART D
 #yes, profit decrease
+
+# shadow price = financial implications of adding or subtracting a unit, 
+#doesnt changing, this is the effect on objective value/total cost or profit
+
 # set parameters
 f.parD <- c(200,
            150,

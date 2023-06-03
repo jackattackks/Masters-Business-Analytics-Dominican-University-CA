@@ -128,7 +128,8 @@ sensitivity_analysis <- lp("max", f.obj, f.con, f.dir, f.par, compute.sens = TRU
 sensitivity_analysis$sens.coef.from
 sensitivity_analysis$sens.coef.to
 
-# PART I
 sensitivity_analysis$duals
 sensitivity_analysis$duals.from
 sensitivity_analysis$duals.to
+
+# PART I -PARAMETER SOLVER - EXTRA
