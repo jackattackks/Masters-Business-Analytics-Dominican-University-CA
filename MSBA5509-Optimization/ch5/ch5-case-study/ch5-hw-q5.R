@@ -116,5 +116,19 @@ lp_solve_g
 vars7 <- lp_solve_g$solution
 vars7
 
+# h. Use Solver to generate the sensitivity report for
+# this problem. For each of the preceding parts, sup-
+#   pose that the change occurs later without having the
+# spreadsheet model immediately available on a com-
+#   puter. Show in each case how the sensitivity report
+# can be used to check whether the original optimal
+# solution must still be optimal.
 
+sensitivity_analysis <- lp("max", f.obj, f.con, f.dir, f.par, compute.sens = TRUE)
+sensitivity_analysis$sens.coef.from
+sensitivity_analysis$sens.coef.to
 
+# PART I
+sensitivity_analysis$duals
+sensitivity_analysis$duals.from
+sensitivity_analysis$duals.to
