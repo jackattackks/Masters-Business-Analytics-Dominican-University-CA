@@ -116,3 +116,5 @@ cat("x1 =", best_solution[1], "\n")
 cat("x2 =", best_solution[2], "\n")
 cat("z =", best_p, "\n")
 
+
+
