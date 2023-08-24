@@ -65,7 +65,7 @@ solution <- result$solution
 # Objective function value
 objective_value <- result$objval
 
-Print the final result
+# Print the final result
 cat("Optimized solution:\n")
 print(solution)
 

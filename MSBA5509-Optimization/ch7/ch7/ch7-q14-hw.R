@@ -20,7 +20,7 @@
 
 #-------------------------
 
-# PART B
+# PART 
 # Formulate and solve this model on a spreadsheet.
 
 f.obj <- c(12,15,20,9,20)
