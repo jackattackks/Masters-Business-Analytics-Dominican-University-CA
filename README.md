@@ -1,5 +1,4 @@
 # Masters-Business-Analytics-Dominican-University-CA
-materials from my courses in business analytics
+Cybersecurity and Business Analytics Portfolio
 
-5501 - projects in python
-\n 5504 - projects done in r
+
